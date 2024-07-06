@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part Three</title>
+        <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+      <div class="third-photo">
+    <div class="table">
+      <form action="">
+        <table>
+          <tr>
+            <td colspan="3" class="center">Personal Data</td>
+          </tr>
+          <tr>
+            <td><label for="fname">First Name</label></td>
+            <td colspan="2">
+              <input type="text" name="fname" id="fname" placeholder="enter your first name here" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Name</label></td>
+            <td colspan="2">
+              <input type="text" name="lname" id="lname" placeholder="enter your last name here" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pass">Password</label></td>
+            <td>
+              <input type="password" name="pass" id="pass" placeholder="Enter your password" />
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2"><label for="gender">Gender</label></td>
+            <td>
+              <input type="radio" name="gender" id="male" checked />
+              <label for="male">Male</label </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="gender" id="female" />
+              <label for="female">female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Metrial Status</td>
+            <td>
+              <select name="status" id="status">
+                <option value="single" selected>Single</option>
+                <option value="maried">Maried</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" class="center">Interests</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="sports" id="sports">
+              <label for="sports">Sports</label>
+            </td>
+            <td>
+              <input type="checkbox" name="music" id="music">
+              <label for="music">Music</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="books" id="books" checked>
+              <label for="books">Books</label>
+            </td>
+            <td>
+              <input type="checkbox" name="stuff" id="stuff">
+              <label for="stuff">Computer Stuff</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="fasion" id="fasion">
+              <label for="fasion">Fasion</label>
+            </td>
+            <td>
+              <input type="checkbox" name="movies" id="movies">
+              <label for="movies">Movies</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" rowspan="2" class="comment">
+              <div><label for="comment"><b>Comment</b></label></div>
+              <textarea name="comment" id="comment"></textarea>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td class="center" rowspan="2" colspan="3">
+              <input type="submit" name="button" value="Ok">
+              <input type="reset" name="cancel" id="cancel" value="Cancel">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>

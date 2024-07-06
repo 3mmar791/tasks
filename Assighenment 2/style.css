@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  background-color: #eee;
+  margin: 5px;
+  border-radius: 20px;
+  color: black;
+}
+
+.container a:hover {
+  color: red;
+  background-color: #ccc;
+}
+.first-photo {
+  padding: 10px;
+}
+
+.counting {
+  list-style-type: square;
+}
+
+table {
+  border: 2px solid blue;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+table td {
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.comment {
+  text-align: center;
+}
+
+.comment label {
+  font-size: 20px;
+}
+
+.comment textarea {
+  width: 50%;
+}
+
+.padd {
+  padding: 10px;
+}
+.fourth-photo {
+  background-color: rgb(240, 212, 223);
+  width: 50%;
+}
+
+.fifth-photo {
+  text-align: center;
+}
+.fifth-photo table {
+  width: 50%;
+  border-collapse: collapse;
+  border: solid 1px #070707;
+}
+.fifth-photo table td {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+.fifth-photo .eight,
+.fifth-photo .eleven {
+  background-color: #fdffa2;
+}
+.fifth-photo .five {
+  background-color: #cf99cb;
+}
+.fifth-photo .two {
+  background-color: #66b478;
+}

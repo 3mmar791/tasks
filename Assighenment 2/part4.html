@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part Four</title>
+        <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+  <div class="fourth-photo">
+    <form action="acion.php">
+      <fieldset>
+        <legend>Login</legend>
+        <div class="padd">
+          <label for="userName">User Name</label>
+          <input type="text" name="userName" id="userName" placeholder="Enter Your Name Here">
+        </div>
+        <div class="padd">
+          <label for="password">User Name</label>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="padd">
+          <label for="location">Select Your Location</label>
+          <select name="location" id="location">
+            <optgroup label="Africa">
+              <option value="egypt">Egypt</option>
+              <option value="sudan">Sudan</option>
+              <option value="namibia">Namibia</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="france">France</option>
+              <option value="russia">Russia</option>
+              <option value="uk">UK</option>
+            </optgroup>
+            <optgroup label="North America">
+              <option value="canada">Canada</option>
+              <option value="mexico">Mexico</option>
+              <option value="usa">USA</option>
+            </optgroup>
+          </select>
+        </div>
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember me</label> <br>
+        <input type="submit" name="login" id="login" value="Login">
+    </form>
+    </fieldset>
+  </div>
+  </body>
+</html>
