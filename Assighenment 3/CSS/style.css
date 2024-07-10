@@ -1,0 +1,115 @@
+.container {
+  width: 90%;
+  margin: 19px auto;
+  background-color: #eee;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.container .right {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: solid 3px #6e6b6b;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  overflow: auto;
+}
+
+.container .right img {
+  width: calc(92% / 4);
+  height: 25%;
+  margin-bottom: 2%;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .right img:hover {
+  -o-transform: scale(1.1) rotate(-4deg);
+  -webkit-transform: scale(1.1) rotate(-4deg);
+  -moz-transform: scale(1.1) rotate(-4deg);
+  -ms-transform: scale(1.1) rotate(-4deg);
+  transform: scale(1.1) rotate(-4deg);
+}
+
+.container .left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: solid 3px #6e6b6b;
+  margin-right: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  overflow: auto;
+}
+.container .left div {
+  padding: 20px;
+  border: solid 3px #6e6b6b;
+  margin-right: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  height: calc(100% / 3);
+  overflow: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .container .left,
+  .container .right {
+    width: auto;
+  }
+  .container .left {
+    overflow: visible;
+  }
+  .container .right {
+    margin-top: 30px;
+    height: 600px;
+  }
+  .container .right img {
+    width: calc(96% / 2);
+    height: 40%;
+    margin-bottom: 30px;
+  }
+  .container .left div {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container .right img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container .right img {
+    width: calc(96% / 3);
+  }
+}
